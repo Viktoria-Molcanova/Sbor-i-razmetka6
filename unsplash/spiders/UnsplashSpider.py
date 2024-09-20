@@ -1,14 +1,5 @@
 import scrapy
 from scrapy.linkextractors import LinkExtractor
-from scrapy.spiders import CrawlSpider, Rule
-from scrapy.loader import ItemLoader
-from itemloaders.processors import MapCompose
-from unsplash.items import ImageItem
-from urllib.parse import urljoin
-
-
-import scrapy
-from scrapy.linkextractors import LinkExtractor
 from scrapy.spiders import Rule
 from scrapy.loader import ItemLoader
 from scrapy.loader.processors import MapCompose
